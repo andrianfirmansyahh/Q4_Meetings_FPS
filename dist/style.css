@@ -1,0 +1,40 @@
+*
+{
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+html,
+body
+{
+    height: 100vh;
+    font-family: 'roboto';
+    background: rgb(0, 0, 0);
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+.container {
+    height: 100 vh;
+    display: grid;
+    text-align: center;
+}
+
+h1 {
+    font-size: 8rem;
+    text-transform:  uppercase;
+    color: white;
+    display: grid;
+    text-align: center;
+}
+
+section {
+    height: 100 vh;
+}
