@@ -4,7 +4,7 @@ import { OrbitControls } from './three.js-master/examples/jsm/controls/OrbitCont
 
 //LOADING
 const textureLoader = new THREE.TextureLoader()
-const normalTexture = textureLoader.load('/texture/normal map.jpeg')
+const normalTexture = textureLoader.load('/dist/texture/normal map.jpeg')
 
 //GUI
 let kendali = new Object();
